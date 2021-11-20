@@ -1,5 +1,8 @@
 const nama = "Rafli nur";
-let hobi = "ngoding";
-hobi = "bermain java";
-console.log(`${nama} ${hobi}`);
+
+function getNama() {
+    return nama;
+}
+
+console.log(getNama());
 
